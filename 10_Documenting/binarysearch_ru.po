@@ -1,0 +1,65 @@
+# Russian translations for binarysearch package.
+# Copyright (C) 2020 THE binarysearch'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the binarysearch package.
+# den2204 <den2204@den2204-icl>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: binarysearch 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-21 01:02+0300\n"
+"PO-Revision-Date: 2020-11-21 00:37+0300\n"
+"Last-Translator: den2204 <den2204@den2204-icl>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: main.c:11
+msgid ""
+"Usage: binarysearch [OPTION]..\n"
+"Guess number from given range\n"
+"\n"
+"-r    use roman number notation (arabic by default)\n"
+"\n"
+"User should imagine some number from given range.\n"
+"Program tries to guess this number using binary search.\n"
+msgstr ""
+"Usage: binarysearch [OPTION]..\n"
+"Угадывает число из заданного отрезка\n"
+"\n"
+"-r    использовать римскую нотацию (арабская по стандарту)\n"
+"\n"
+"Пользователь должен загадать число из заданного отрезка.\n"
+"Программа угадывает число используя метод бинарного поиска.\n"
+
+#: main.c:44
+msgid "yes"
+msgstr "Да"
+
+#: main.c:49
+msgid "no"
+msgstr "Нет"
+
+#: main.c:75
+#, c-format
+msgid "try to guess number between %s and %s\n"
+msgstr "Угадайте число между %s и %s\n"
+
+#: main.c:83
+#, c-format
+msgid "Is your number less than %s? "
+msgstr "Загаданное число меньше чем %s? "
+
+#: main.c:88
+#, c-format
+msgid "Incorrect input. Please, type again. "
+msgstr "Некорректный ввод. Пожалуйста, попробуйте заново. "
+
+#: main.c:99
+#, c-format
+msgid "Guessed number is %s\n"
+msgstr "Загадываемое число - %s\n"

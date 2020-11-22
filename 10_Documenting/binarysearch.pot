@@ -1,0 +1,57 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-21 01:02+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: main.c:11
+msgid ""
+"Usage: binarysearch [OPTION]..\n"
+"Guess number from given range\n"
+"\n"
+"-r    use roman number notation (arabic by default)\n"
+"\n"
+"User should imagine some number from given range.\n"
+"Program tries to guess this number using binary search.\n"
+msgstr ""
+
+#: main.c:44
+msgid "yes"
+msgstr ""
+
+#: main.c:49
+msgid "no"
+msgstr ""
+
+#: main.c:75
+#, c-format
+msgid "try to guess number between %s and %s\n"
+msgstr ""
+
+#: main.c:83
+#, c-format
+msgid "Is your number less than %s? "
+msgstr ""
+
+#: main.c:88
+#, c-format
+msgid "Incorrect input. Please, type again. "
+msgstr ""
+
+#: main.c:99
+#, c-format
+msgid "Guessed number is %s\n"
+msgstr ""
